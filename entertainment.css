@@ -56,7 +56,7 @@ body {
   }
 }
 
-.parkinfo {
+.partyinfo {
     height: 100%;  
     padding-top: 1%; 
     padding-bottom: 6%;
@@ -67,7 +67,7 @@ body {
     color: white;
 }
 
-.washinfo {
+.nightclubinfo {
     height: 100%;  
     padding-top: 1%; 
     padding-bottom: 6%;
@@ -85,7 +85,7 @@ h3 {
     font-color: white;
 }
 
-.stevensinfo {
+.bookinfo {
     height: 100%;  
     padding-top: 1%; 
     padding-bottom: 6%;
@@ -101,7 +101,7 @@ h3 {
 }
 
 .parallax {
-    background-image: url("piera.jpg");
+    background-image: url("party.jpg");
     height: 500px;
     width: 100%; 
     background-attachment: fixed;
@@ -111,7 +111,7 @@ h3 {
 }
 
 .parallax2 {
-    background-image: url('washstreet.jpg'); 
+    background-image: url('nightclub.jpg'); 
     min-height: 500px; 
     background-attachment: fixed;
     background-position: center;
@@ -120,7 +120,7 @@ h3 {
 }
 
 .parallax3 {
-    background-image: url("stevens.jpg");
+    background-image: url("book.jpg");
     min-height: 500px; 
     background-attachment: fixed;
     background-position: center;
