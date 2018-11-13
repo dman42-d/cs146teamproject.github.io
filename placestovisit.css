@@ -9,6 +9,7 @@ body {
 .topnav {
   overflow: hidden;
   background-color: #f1f1f1;
+  width: 100%;
 }
 
 .topnav a {
