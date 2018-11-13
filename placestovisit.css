@@ -101,7 +101,8 @@ h3 {
 
 .parallax {
     background-image: url("piera.jpg");
-    min-height: 640px; 
+    height: 500px;
+    width: 100%; 
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
