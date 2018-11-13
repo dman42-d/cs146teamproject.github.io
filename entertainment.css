@@ -56,19 +56,74 @@ body {
   }
 }
 
-.party {
-    height: 100%;
+.parkinfo {
+    height: 100%;  
+    padding-top: 1%; 
+    padding-bottom: 6%;
+    padding-left: 3%;
+    padding-right: 3%;
+    text-align: center; 
+    background-color:#663300; 
+    color: white;
+}
+
+.washinfo {
+    height: 100%;  
+    padding-top: 1%; 
+    padding-bottom: 6%;
+    padding-left: 3%;
+    padding-right: 3%;
+    text-align: center; 
     background-color:#ffff99; 
     color: black;
 }
-.width{
-  width: 100%;
-  height: auto;
-  
+
+h3 {
+    text-align: center; 
+    padding-top: 1%; 
+    font-size: 3vw;  
+    font-color: white;
 }
-.party:font{
-  text-align: center;
-  padding-top: 1%; 
-  font-size: 46px;  
-  color: white;
+
+.stevensinfo {
+    height: 100%;  
+    padding-top: 1%; 
+    padding-bottom: 6%;
+    padding-left: 3%;
+    padding-right: 3%;
+    text-align: center; 
+    background-color: #6bfb95; 
+    color: black;
 }
+
+.info {
+    font-size: 2vw;
+}
+
+.parallax {
+    background-image: url("piera.jpg");
+    height: 500px;
+    width: 100%; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax2 {
+    background-image: url('washstreet.jpg'); 
+    min-height: 500px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax3 {
+    background-image: url("stevens.jpg");
+    min-height: 500px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
