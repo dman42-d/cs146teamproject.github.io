@@ -59,6 +59,8 @@ body {
     height: 100%;  
     padding-top: 1%; 
     padding-bottom: 6%;
+    padding-left: 3%;
+    padding-right: 3%;
     text-align: center; 
     background-color:#663300; 
     color: white;
@@ -68,6 +70,8 @@ body {
     height: 100%;  
     padding-top: 1%; 
     padding-bottom: 6%;
+    padding-left: 3%;
+    padding-right: 3%;
     text-align: center; 
     background-color:#ffff99; 
     color: black;
@@ -84,6 +88,8 @@ h3 {
     height: 100%;  
     padding-top: 1%; 
     padding-bottom: 6%;
+    padding-left: 3%;
+    padding-right: 3%;
     text-align: center; 
     background-color:#6bfb95; 
     color: black;
