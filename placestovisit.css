@@ -56,20 +56,18 @@ body {
 }
 
 .parkinfo {
-     height:275px; 
-     margin-top: -45px; 
-     padding-left: 4%; 
-     padding-right: 4%; 
-     text-align: center; 
-     background-color:#663300; 
-     color: white;
+    height: 100%;  
+    padding-top: 1%; 
+    padding-bottom: 6%;
+    text-align: center; 
+    background-color:#663300; 
+    color: white;
 }
 
 .washinfo {
-    height:275px; 
-    margin-top: -45px; 
-    padding-left: 4%; 
-    padding-right: 4%; 
+    height: 100%;  
+    padding-top: 1%; 
+    padding-bottom: 6%;
     text-align: center; 
     background-color:#ffff99; 
     color: black;
@@ -83,10 +81,9 @@ h3 {
 }
 
 .stevensinfo {
-    height:275px; 
-    margin-top: -45px; 
-    padding-left: 4%; 
-    padding-right: 4%; 
+    height: 100%;  
+    padding-top: 1%; 
+    padding-bottom: 6%;
     text-align: center; 
     background-color:#6bfb95; 
     color: black;
