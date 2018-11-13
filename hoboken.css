@@ -181,7 +181,7 @@ body {
 
 .parallax {
     /* The image used */
-    background-image: url("images146/piera.jpg");
+    background-image: url("piera.jpg");
 
     /* Set a specific height */
     min-height: 630px; 
@@ -196,7 +196,7 @@ body {
 
 .parallax1 {
     /* The image used */
-    background-image: url("images146/washstreet.jpg");
+    background-image: url("washstreet.jpg");
 
     /* Set a specific height */
     min-height: 500px; 
