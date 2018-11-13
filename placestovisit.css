@@ -1,0 +1,126 @@
+* {box-sizing: border-box;}
+
+body { 
+  margin: 0;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  background-color: #474e5d;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+  position: relative;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.active {
+  background-color: #4CAF50;
+  color: dodgerblue;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+
+.parkinfo {
+     height:275px; 
+     margin-top: -45px; 
+     padding-left: 4%; 
+     padding-right: 4%; 
+     text-align: center; 
+     background-color:#663300; 
+     color: white;
+}
+
+.washinfo {
+    height:275px; 
+    margin-top: -45px; 
+    padding-left: 4%; 
+    padding-right: 4%; 
+    text-align: center; 
+    background-color:#ffff99; 
+    color: black;
+}
+
+h3 {
+    text-align: center; 
+    padding-top: 1%; 
+    font-size: 46px;  
+    font-color: white;
+}
+
+.stevensinfo {
+    height:275px; 
+    margin-top: -45px; 
+    padding-left: 4%; 
+    padding-right: 4%; 
+    text-align: center; 
+    background-color:#6bfb95; 
+    color: black;
+}
+
+.info {
+    font-size: 25px;
+}
+
+.parallax {
+    background-image: url("piera.jpg");
+    min-height: 640px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax2 {
+    background-image: url('washstreet.jpg'); 
+    min-height: 500px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax3 {
+    background-image: url("stevens.jpg");
+    min-height: 500px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
