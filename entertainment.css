@@ -1,1 +1,16 @@
-
+.party {
+    height: 100%;
+    background-color:#ffff99; 
+    color: black;
+}
+.width{
+  width: 100%;
+  height: auto;
+  
+}
+.party:font{
+  text-align: center;
+  padding-top: 1%; 
+  font-size: 46px;  
+  color: white;
+}
