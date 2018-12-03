@@ -1,7 +1,7 @@
 <!DOCtype html>
 
 <html>
-<head onload = "hideDuringScroll()">
+<head onload = "hideOnPageLoad()">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" type="text/css" href="recreation.css">
 	<title>Recreation</title>
@@ -19,6 +19,10 @@ function checkmobile() {
 }
 	
 window.onscroll = function() {hideDuringScroll()};
+	
+function hideOnPageLoad() {
+	document.getElementById("myBtn").style.display = "none";
+}
 
 function hideDuringScroll() {
     if (document.body.scrollTop > 40 || document.documentElement.scrollTop > 40) {
