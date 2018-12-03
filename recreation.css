@@ -105,7 +105,7 @@ body {
 .text {
   color: white;
   position: absolute;
-  font-size: 25px;
+  font-size: 17px;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
