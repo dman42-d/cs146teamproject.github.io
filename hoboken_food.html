@@ -4,22 +4,22 @@
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" type="text/css" href="food.css">
+  <script type="text/javascript" src="food.js"></script>
   <link src="food.css"></link>
   <title> Things to do in Hoboken </title>
 </head>
 
 
 <body>
+
+
 <div class="topnav" id="myTopnav">
   <a href="index.html">Home</a>
   <a class="active" href="hoboken_food.html">Food</a>
   <a href="hoboken_entertainment.html">Entertainment</a>
   <a href="hoboken_recreation.html">Recreation</a>
   <a href="hoboken_placestovisit.html">Places to Visit</a>
-  <a href="hoboken_history.html">History</a>
 </div>
-
-
 
 <div class="makepadding"></div>
 
@@ -29,7 +29,8 @@
       <div class="container">
         <h2>Mamouns Falafal</h2>
         <p>High quality Middle Eastern food and the oldest falafal creator in New York </p>
-        <p><a href="http://mamouns.com/">Click here to visit site</a></p>
+        <button onclick="mamounB()" class="button">Click here to visit site</button>
+        <!-- <p><a href="http://mamouns.com/">Click here to visit site</a></p> -->
       </div>
     </div>
   </div>
@@ -40,7 +41,8 @@
       <div class="container">
         <h2>Chipotle</h2>
         <p>Fast Mexican food with fresh ingredients and famous for its sauce </p>
-        <p><a href="https://www.chipotle.com/">Click here to visit site</a></p>
+        <button onclick="chipB()" class="button">Click here to visit site</button>
+        <!-- <p><a href="https://www.chipotle.com/">Click here to visit site</a></p> -->
       </div>
     </div>
   </div>
@@ -51,10 +53,48 @@
       <div class="container">
         <h2>Pierce Dining Hall</h2>
         <p>The best view in Hoboken with Stevens Quality food</p>
-        <p><a href="http://stevensdining.com/pierce-dining-hall/">Click here to visit site</a></p>
+        <button onclick="pierceB()" class="button">Click here to visit site</button>
+        <!-- <p><a href="http://stevensdining.com/pierce-dining-hall/">Click here to visit site</a></p> -->
       </div>
     </div>
   </div>
+
+  <div class="column">
+    <div class="card">
+      <img class="size" src="bareburger3.jpg" alt="Pierce">
+      <div class="container">
+        <h2>Bareburger</h2>
+        <p> Fresh burgers made with the best ingredients</p>
+        <button onclick="bareB()" class="button">Click here to visit site</button>
+        <!-- <p><a href="https://www.bareburger.com/">Click here to visit site</a></p> -->
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img class="size" src="benny-tudinos.jpg" alt="Pierce">
+      <div class="container">
+        <h2>Benny Tudinos</h2>
+        <p>Largest slice of pizza you will ever have</p>
+        <button onclick="bennyB()" class="button">Click here to visit site</button>
+        <!-- <p><a href="https://www.bennytudinospizzeria.com/">Click here to visit site</a></p> -->
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img class="size" src="indianf.jpg" alt="Pierce">
+      <div class="container">
+        <h2>Karma Cafe</h2>
+        <p>Great Indian food in Hoboken</p>
+        <button onclick="karmaB()" class="button">Click here to visit site</button>
+        <!-- <p><a href="http://www.karmakafe.com/">Click here to visit site</a></p> -->
+      </div>
+    </div>
+  </div>
+
 
 
 </body>
