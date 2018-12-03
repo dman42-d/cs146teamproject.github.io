@@ -17,6 +17,11 @@ function checkmobile() {
   			element.style.fontSize = "10px";
 }}    	
 }
+	
+function topFunction() {
+    document.body.scrollTop = 0; // For Safari
+    document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+}
 </script>
  
 
@@ -28,6 +33,11 @@ function checkmobile() {
   <a href="hoboken_recreation.html" class="active">Recreation</a>
   <a href="hoboken_placestovisit.html">Places to Visit</a>
 </div>
+	
+	
+	
+<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
 
 
 
