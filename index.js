@@ -1,26 +1,28 @@
-var slideIndex = 1;
-showSlides(slideIndex);
+var i = 0;          // Start Point
+var images = [];    // Images Array
+var time = 3000;    // Time Between Switch
+     
+// Image List
+images[0] = "downtown_hoboken.jpg";
+images[1] = "night_pier_hoboken.jpg";
+images[2] = "from_hoboken.jpg";
 
-function plusSlides(n) {
-  showSlides(slideIndex += n);
+// Change Image
+function changeImg(){
+    document.slide.src = images[i];
+
+    // Check If Index Is Under Max
+    if(i < images.length - 1){
+      // Add 1 to Index
+      i++; 
+    } else { 
+        // Reset Back To O
+        i = 0;
+    }
+
+    // Run function every x seconds
+    setTimeout("changeImg()", time);
 }
 
-function currentSlide(n) {
-  showSlides(slideIndex = n);
-}
-
-function showSlides(n) {
-  var i;
-  var slides = document.getElementsByClassName("mySlides");
-  var dots = document.getElementsByClassName("dot");
-  if (n > slides.length) {slideIndex = 1}    
-  if (n < 1) {slideIndex = slides.length}
-  for (i = 0; i < slides.length; i++) {
-      slides[i].style.display = "none";  
-  }
-  for (i = 0; i < dots.length; i++) {
-      dots[i].className = dots[i].className.replace(" active", "");
-  }
-  slides[slideIndex-1].style.display = "block";  
-  dots[slideIndex-1].className += " active";
-}
+// Run function when page loads
+window.onload=changeImg;
