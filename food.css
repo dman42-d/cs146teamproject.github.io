@@ -1,6 +1,6 @@
 * {box-sizing: border-box;}
 
-body { 
+body {
   margin: 0;
   font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
   background-color: #474e5d;
@@ -76,13 +76,13 @@ body {
 }
 
 .container {
-  padding: 0 16px;
+  padding: 10px 16px;
 }
 
 
 
 .makepadding{
-  padding-top: 100px;
+  padding-top: 50px;
 }
 
 .size{
