@@ -4,9 +4,9 @@ function checkmobile() {
 		for (var i = 0; i < elements.length; i++) {
   			var element = elements[i];
   			element.style.fontSize = "15px";
-}}
+}}    	
 }
-
+	
 window.onscroll = function() {hideDuringScroll()};
 function hideDuringScroll() {
     if (document.body.scrollTop > 40 || document.documentElement.scrollTop > 40) {
@@ -15,8 +15,8 @@ function hideDuringScroll() {
         document.getElementById("myBtn").style.display = "none";
     }
 }
-
-function topFunction() {
-    document.body.scrollTop = 0;
-    document.documentElement.scrollTop = 0;
+	
+function backToTop() {
+    document.body.scrollTop = 0; 
+    document.documentElement.scrollTop = 0; 
 }
