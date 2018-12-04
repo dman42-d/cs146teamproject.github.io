@@ -3,7 +3,7 @@ function checkmobile() {
 	if ((typeof window.orientation !== "undefined") || (navigator.userAgent.indexOf('IEMobile') !== -1)){
 		for (var i = 0; i < elements.length; i++) {
   			var element = elements[i];
-  			element.style.fontSize = "12px";
+  			element.style.fontSize = "10px";
 }}    	
 }
 	
