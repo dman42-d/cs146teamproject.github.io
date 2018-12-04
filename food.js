@@ -21,3 +21,17 @@ function bennyB(){
 function karmaB(){
   window.open("http://www.karmakafe.com/")
 }
+
+window.onscroll = function() {hideDuringScroll()};
+function hideDuringScroll() {
+    if (document.body.scrollTop > 40 || document.documentElement.scrollTop > 40) {
+        document.getElementById("topButton").style.display = "block";
+    } else {
+        document.getElementById("topButton").style.display = "none";
+    }
+}
+	
+function backToTop() {
+    document.body.scrollTop = 0; 
+    document.documentElement.scrollTop = 0; 
+}
