@@ -25,9 +25,9 @@ function karmaB(){
 window.onscroll = function() {hideDuringScroll()};
 function hideDuringScroll() {
     if (document.body.scrollTop > 40 || document.documentElement.scrollTop > 40) {
-        document.getElementById("backuppagebutton").style.display = "block";
+        document.getElementById("buttongototop").style.display = "block";
     } else {
-        document.getElementById("backuppagebutton").style.display = "none";
+        document.getElementById("buttongototop").style.display = "none";
     }
 }
 	
