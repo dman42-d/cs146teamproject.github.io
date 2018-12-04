@@ -128,7 +128,7 @@ h3 {
     background-size: cover;
 }
 
-#myBtn {
+#topButton {
     display: none; 
     position: fixed;
     bottom: 20px; 
